@@ -1,5 +1,6 @@
 import HeroSection from "@/component/hero/HeroSection";
-import Contact from "@/component/contact/Contact";
+import About from "@/component/about/About";
+import {Contact} from "@/component/contact/Contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
           <div className="w-full flex justify-center -mt-24 sm:-mt-24 md:-mt-28 lg:-mt-24">
               <Contact />
           </div>
+          <About/>
       </main>
   );
 }

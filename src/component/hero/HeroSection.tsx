@@ -8,7 +8,7 @@ class HeroSection extends Component {
     render() {
         return (
             <div
-                className="w-full grid grid-cols  bg-blue-950 rounded-bl-[100px] md:h-screen items-center justify-items-center">
+                className="w-full grid grid-cols  bg-blue-950 rounded-bl-[100px] h-screen items-center justify-items-center">
                 <div className={`flex flex-row space-x-4 pt-4`}>
                     <div>
                         <Image

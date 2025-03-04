@@ -1,6 +1,6 @@
 "use client"
 import React, {Component} from 'react';
-import HeroSection from "@/component/Hero/HeroSection";
+import HeroSection from "@/component/hero/HeroSection";
 
 class Page extends Component {
     render() {

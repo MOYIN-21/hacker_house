@@ -1,7 +1,7 @@
 "use client"
 import React, {Component} from 'react';
 import Image from "next/image";
-import {CircleArrowRight} from "lucide-react";
+import { TbCircleArrowRight } from "react-icons/tb";
 
 
 class HeroSection extends Component {
@@ -49,7 +49,7 @@ class HeroSection extends Component {
                             className="flex gap-1 text-blue-950 bg-cyan-400 hover:bg-cyan-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 "
                         >
                             Apply
-                            <CircleArrowRight className="w-4 h-4 pt-1 text-blue-950"/>
+                            <TbCircleArrowRight className="w-4 h-4 pt-1 text-blue-950"/>
                         </button>
                     </div>
                 </div>

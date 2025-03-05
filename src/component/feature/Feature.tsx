@@ -22,7 +22,7 @@ const Section = ({
     </div>
 );
 
-const HackerHouseFeatures = () => {
+const Features = () => {
     const features = [
         "Brainstorming and Ideation Sessions",
         "Workshops and Tutorials",
@@ -43,11 +43,11 @@ const HackerHouseFeatures = () => {
     ];
 
     return (
-        <div className="mx-auto flex flex-col md:flex-row justify-around gap-6 bg-blue-100 font-sans">
+        <div className="mx-auto flex flex-col min:h-screen md:flex-row justify-around gap-6 bg-blue-100 font-sans">
             <Section title="Features of the Hacker House" items={features} bgColor="bg-blue-100" padding="10"/>
             <Section title="Benefits for Participating Teams" items={benefits} bgColor="bg-gray-50" padding="10"/>
         </div>
     );
 };
 
-export default HackerHouseFeatures;
+export default Features;

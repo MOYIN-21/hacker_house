@@ -15,12 +15,26 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className='flex  gap-4'>
-                    <div><Image src={"/images/Screenshot 2025-03-04 at 10.59.03.png"} alt='image' width={120}
-                                height={120}/></div>
-                    <p className='text-white text-xl'>|</p>
-                    <div> <Image src={"/images/sui-logo.svg"} alt='image' width={45}
-                                 height={45}/></div>
+                <div className={`flex flex-row space-x-4 pt-4`}>
+                    <div>
+                        <Image
+                            aria-hidden
+                            src="/assets/image/semicolon-logo.svg"
+                            alt="semicolon icon"
+                            width={120}
+                            height={120}
+                        />
+                    </div>
+                    <div className="h-6 border-l-2 border-white-500"></div>
+                    <div>
+                        <Image
+                            aria-hidden
+                            src="/assets/image/sui-logo.svg"
+                            alt="Globe icon"
+                            width={40}
+                            height={40}
+                        />
+                    </div>
                 </div>
             </div>
             <div className='px-16 md:mt-0 mt-6'>

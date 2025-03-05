@@ -21,7 +21,6 @@ const Criteria = () => {
                 </ul>
             </div>
 
-            {/* Image Section */}
             <div className="relative w-full md:w-1/2 flex justify-end">
                 <img
                     src="/assets/image/eligibility-image.svg"

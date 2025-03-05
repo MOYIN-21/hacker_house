@@ -13,13 +13,11 @@ const About = () => {
                         width={400}
                         height={400}
                         className={`rounded-full w-96 h-96 bg-black object-cover object-center`}
-                        // className={`rounded-full w-96 h-96 bg-black object-cover object-center`}
                         // className="absolute w-auto h-[120%] object-cover -top-16"
                     />
 
                     <div
                         className="absolute top-32 left-[-12px] bg-gray-200 text-black px-4 py-1 rounded shadow-md flex items-center text-sm">
-                        {/*<div></div>*/}
                         <span className=" text-sm text-black"><Image alt="image" height={25} width={25} src='/assets/image/displayIcon.png'/></span> Web 3.0
                     </div>
 

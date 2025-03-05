@@ -1,11 +1,11 @@
 "use client"
 import React, {Component} from 'react';
-import Features from "@/component/feature/Feature";
+import Footer from "@/component/footer/Footer";
 
 class Page extends Component {
     render() {
         return (
-           <Features/>
+            <Footer/>
         );
     }
 }

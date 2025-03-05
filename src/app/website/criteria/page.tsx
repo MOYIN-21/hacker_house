@@ -1,11 +1,11 @@
 "use client"
 import React, {Component} from 'react';
-import Features from "@/component/feature/Feature";
+import Criteria from "@/component/criteria/Criteria";
 
 class Page extends Component {
     render() {
         return (
-           <Features/>
+            <Criteria/>
         );
     }
 }

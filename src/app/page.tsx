@@ -4,6 +4,7 @@ import About from "@/component/about/About";
 import Features from "@/component/feature/Feature";
 import Criteria from "@/component/criteria/Criteria";
 import Footer from "@/component/footer/Footer";
+import ParticipantRequirement from "@/component/participant requirement/Participant_requirement";
 
 const Home = () => {
     return <main className="relative bg-white flex flex-col items-center min-h-screen pb-20 gap-16">
@@ -14,6 +15,7 @@ const Home = () => {
         <About/>
         <Features/>
         <Criteria/>
+        <ParticipantRequirement/>
         <Footer/>
 
     </main>

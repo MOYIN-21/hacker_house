@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import Image from "next/image";
 
-class HeroSection extends Component {
+class Header extends Component {
     render() {
         return (
             <div className="w-full grid grid-cols  bg-[#05122C] rounded-bl-[100px] h-screen items-center justify-items-center">
@@ -44,4 +44,4 @@ class HeroSection extends Component {
     }
 }
 
-export default HeroSection;
+export default Header;

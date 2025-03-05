@@ -2,6 +2,7 @@ import HeroSection from "@/component/hero/HeroSection";
 import About from "@/component/about/About";
 import {Contact} from "@/component/contact/Contact";
 import HackerHouseFeatures from "@/component/feature/Feature";
+import Footer from "@/component/footer/Footer";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             </div>
             <About/>
             <HackerHouseFeatures/>
+            <Footer/>
         </main>
     );
 }

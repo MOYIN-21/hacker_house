@@ -4,7 +4,7 @@ import Image from "next/image";
 function IndividualTeam() {
     return (
         <div>
-            <div className='bg-[#ebf3ff] grid md:grid-cols-2 gap-8 lg:px-52 md:h-48 px-4 md:pt-0 pt-5'>
+            <div className='bg-[#ebf3ff] grid md:grid-cols-2 gap-10 lg:px-52 md:h-48 px-4 md:pt-0 pt-5'>
                 <div className='bg-[#F7FAFF] flex flex-col space-y-3 gap-5 items-center max-w-sm pl-16 pr-16 mx-auto rounded-[50px] h-80 justify-center relative md:bottom-[7.40vh]'>
                     <div>
                         <Image height={52} width={52} alt="image" src="/assets/image/individual.png"/>

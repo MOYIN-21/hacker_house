@@ -6,7 +6,7 @@ import {FaClock} from "react-icons/fa";
 import {SlCalender} from "react-icons/sl";
 
 
-export const Contact = () => {
+ const Contact = () => {
     return (
         <div className={`flex items-center justify-items-center`}>
             <div className="flex items-center justify-items-center max-w-3xl p-6 bg-white border rounded-lg shadow-sm ">
@@ -27,4 +27,5 @@ export const Contact = () => {
         </div>
     );
 };
+ export default Contact
 

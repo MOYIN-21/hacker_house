@@ -1,5 +1,5 @@
 import HeroSection from "@/component/hero/HeroSection";
-import {Contact} from "@/component/contact/Contact";
+import Contact from "@/component/contact/Contact";
 import About from "@/component/about/About";
 import Features from "@/component/feature/Feature";
 import Criteria from "@/component/criteria/Criteria";

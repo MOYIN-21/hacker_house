@@ -4,7 +4,7 @@ import React from 'react';
 
 const Features = () => {
     return (
-        <div className='md:flex justify-between md:mt-20'>
+        <div className='md:flex justify-between'>
             <div className='bg-[#DBEAFE] w-full  pb-16  flex justify-center items-start px-12 md:px-24'>
                 <div className='mt-14'>
                     <p className='font-bold text-lg text-blue-700 mb-5 '>Features of the Hacker House</p>

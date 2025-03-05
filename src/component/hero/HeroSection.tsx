@@ -38,19 +38,19 @@ class HeroSection extends Component {
                         width={500}
                         height={500}
                     />
-                </div>
-                <div className={`flex md:flex-row flex-col md:space-x-5 space-y-4 items-center justify-items-center`}>
-                    <div>
-                        <p className={`text-3xl text-cyan-400 italic font-sans`}>Road to Sui Overflow</p>
-                    </div>
-                    <div className={`flex flex-row`}>
-                        <button
-                            type="button"
-                            className="flex gap-1 text-blue-950 bg-cyan-400 hover:bg-cyan-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 "
-                        >
-                            Apply
-                            <TbCircleArrowRight className="w-4 h-4 pt-1 text-blue-950"/>
-                        </button>
+                    <div className={`flex pt-5 md:flex-row flex-col md:space-x-5 space-y-4 items-center justify-items-center`}>
+                        <div>
+                            <p className={`text-3xl text-cyan-400 italic font-sans`}>Road to Sui Overflow</p>
+                        </div>
+                        <div className={`flex flex-row`}>
+                            <button
+                                type="button"
+                                className="flex gap-1 text-blue-950 bg-cyan-400 hover:bg-cyan-200 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 "
+                            >
+                                Apply
+                                <TbCircleArrowRight className="w-4 h-4 pt-1 text-blue-950"/>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 "use client"
 import React, {Component} from 'react';
-import Features from "@/component/feature/Feature";
+import Features from "@/component/heroSection/feature/Feature";
 
 class Page extends Component {
     render() {

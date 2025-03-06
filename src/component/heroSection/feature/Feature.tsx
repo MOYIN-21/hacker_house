@@ -23,7 +23,7 @@ const Features = () => {
                     <p className='font-bold text-lg text-blue-700 mb-5'>Benefits for Participating Teams</p>
                     <ul className="list-disc pl-5 space-y-2 text-gray-700 ">
                         <li>Access Mentorship & Coaching</li>
-                        <li>Engage with the Sui Foundation</li>
+                        <li>Engage with the Sui Foundatioc\n</li>
                         <li>Hands-On Learning</li>
                         <li>Strengthen solutions that can be used to compete in global hackathons, enter accelerator programs, and become viable businesses</li>
                         <li>Showcase your skills</li>

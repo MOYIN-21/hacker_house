@@ -10,10 +10,8 @@ import IndividualTeam from "@/component/heroSection/individualTeam/IndividualTea
 class Index extends Component {
     render() {
         return (
-            <main className="relative bg-white flex flex-col items-center gap-16">
-                <div className="w-full flex justify-center -mt-24 sm:-mt-24 md:-mt-28 lg:-mt-24">
-                    <Contact/>
-                </div>
+            <main className="relative bg-white flex flex-col items-center">
+                {/*    <Contact/>*/}
                 <About/>
                 <Features/>
                 <Criteria/>

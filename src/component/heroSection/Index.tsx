@@ -1,6 +1,5 @@
 "use client"
 import React, {Component} from 'react';
-import Contact from "@/component/heroSection/contact/Contact";
 import About from "@/component/heroSection/about/About";
 import Features from "@/component/heroSection/feature/Feature";
 import Criteria from "@/component/heroSection/criteria/Criteria";
